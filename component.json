@@ -1,0 +1,15 @@
+{
+    "version": "1.3.0",
+    "description": "The ngTouch module provides touch events and other helpers for touch-enabled devices. The implementation is based on jQuery Mobile touch event handling",
+    "name": "angular-touch",
+    "main": "angular-touch.js",
+    "dependencies": [
+        "angular"
+    ],
+    "shim": {
+        "angular-touch.js": {
+            "deps": ["angular"],
+            "exports": "'ngTouch'"
+        }
+    }
+}
